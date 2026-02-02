@@ -52,7 +52,8 @@ data/*.json
 data/*.jsonl
 data/*.parquet
 !data/.gitkeep
-checkpoints/
+checkpoints/*
+!checkpoints/.gitkeep
 *.pt
 *.pth
 *.ckpt
@@ -62,7 +63,8 @@ models/*.pt
 !models/.gitkeep
 
 # Logs
-logs/
+logs/*
+!logs/.gitkeep
 *.log
 *.out
 
