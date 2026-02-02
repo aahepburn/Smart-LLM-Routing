@@ -1,0 +1,98 @@
+# Environment variables (IMPORTANT: Never commit!)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data and models
+data/*.csv
+data/*.json
+data/*.jsonl
+data/*.parquet
+!data/.gitkeep
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+models/*.bin
+models/*.pt
+!models/.gitkeep
+
+# Logs
+logs/
+*.log
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Keep example configs
+!infra/config.example.env
+!.env.example
+
+# Design docs (uncomment if you want to track these)
+# design.md
